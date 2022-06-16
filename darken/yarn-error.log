@@ -1,0 +1,64 @@
+Arguments: 
+  D:\software\node.exe D:\software\bin\yarn.js install
+
+PATH: 
+  D:\software\cmder\vendor\git-for-windows\mingw64\bin;D:\software\cmder\vendor\git-for-windows\usr\bin;C:\Users\MI\bin;C:\Python310\Scripts;C:\Python310;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\software;C:\ProgramData\chocolatey\bin;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\TortoiseSVN\bin;D:\software\bin;D:\software\Git\cmd;C:\WINDOWS\System32\OpenSSH;C:\Users\MI\AppData\Local\Microsoft\WindowsApps;C:\Users\MI\AppData\Roaming\npm;D:\software\WebStorm 2022.1.1\bin;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Users\MI\AppData\Local\Yarn\bin;D:\software\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.22.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+
+npm manifest: 
+  {
+    "name": "hello-vue",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "test-serve": "vue-cli-service serve --mode dev-test",
+      "pro-serve": "vue-cli-service serve --mode dev-pro",
+      "test-build": "vue-cli-service build --mode pro-test",
+      "pro-build": "vue-cli-service build --mode pro-pro",
+      "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+      "@vant/area-data": "^1.2.3",
+      "axios": "^0.24.0",
+      "core-js": "^3.6.5",
+      "dayjs": "^1.11.0",
+      "qs": "^6.10.2",
+      "vant": "^2.12.33",
+      "vue": "^2.6.11",
+      "vue-router": "^3.2.0",
+      "vuex": "^3.4.0"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "~4.5.0",
+      "@vue/cli-plugin-eslint": "~4.5.0",
+      "@vue/cli-plugin-router": "~4.5.0",
+      "@vue/cli-plugin-vuex": "~4.5.0",
+      "@vue/cli-service": "~4.5.0",
+      "babel-eslint": "^10.1.0",
+      "eslint": "^6.7.2",
+      "eslint-plugin-vue": "^6.2.2",
+      "sass": "^1.26.5",
+      "sass-loader": "^8.0.2",
+      "vue-template-compiler": "^2.6.11"
+    },
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

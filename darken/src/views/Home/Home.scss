@@ -1,0 +1,39 @@
+//main {
+//  div.part {
+//    width: 200px;
+//    height: 200px;
+//    margin: 20px;
+//    display: inline-block;
+//  }
+//  div:nth-child(1) {
+//    background: pink;
+//  }
+//  div:nth-child(2) {
+//    background: darken(pink,15%);
+//  }
+//  div:nth-child(3) {
+//    background: darken(pink,30%);
+//  }
+//}
+main {
+  div.part {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline-block;
+  }
+  div:nth-child(1) {
+    background: red;
+  }
+  div:nth-child(2) {
+    background: lighten(red,15%);
+  }
+  div:nth-child(3) {
+    background: lighten(red,30%);
+  }
+  div {
+    &:hover {
+      background: black;
+    }
+  }
+}
